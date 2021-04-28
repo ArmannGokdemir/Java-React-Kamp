@@ -30,7 +30,7 @@ public class Main {
 		courses.add(course);
 		
 		for(var i:courses) {
-			System.out.println("Kurs adi: "+i.name+" Tarih:  "+i.date+" İcerik :"+i.details+" Egitmen: "+i.instructorVector);
+			System.out.println("Kurs adi: "+i.name+" Tarih:  "+i.date+" İcerik :"+i.details);
 			for(var k : i.instructorVector)
 				System.out.println("Egitmen: "+ k.name);
 			System.out.println("-Kayitli Ogrenciler-");
