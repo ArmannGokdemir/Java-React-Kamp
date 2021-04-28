@@ -6,7 +6,7 @@ public class Courses {
 		this.name=name;
 		this.date=date;
 		this.details=details;
-		courses.add(this);
+		
 	}
 	
 	String name;
@@ -14,7 +14,7 @@ public class Courses {
 	String details;
 	public Vector<Students> studentsVector=new Vector();
 	public Vector<Instructors> instructorVector=new Vector();
-	public Vector<Courses> courses=new Vector();
+	
 	
 
 }
